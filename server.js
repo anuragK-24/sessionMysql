@@ -1,16 +1,19 @@
 const express = require('express'); //importing top level fun of express 
-
+const dotenv = require('dotenv');
 const app = express();  // this express func will create application byy using top level fun
 const mysql2 = require("mysql2");
+
+dotenv.config(); 
+
 const db = mysql2.createConnection({
     host:'localhost',
     user : 'root',
-    password:'123abc',
+    password:process.env.PASSWORD,
     database: 'DB',
     multipleStatements: true
 });             
 
-const PORT = 3001;
+const PORT = process.env.PP || 3000;
 
 app.use(express.json()); // thsi fun is usedt to mount the specified middleware function
             // setting up middlewarefor our apps
