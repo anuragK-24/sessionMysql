@@ -1,9 +1,9 @@
 # sessionMysql
 
-POST is a request method supported by HTTP that sends data to the server.
+POST is a request method supported by HTTP that **sends data to the server.**
 In express, we can use the app.post() method to accept a POST request.
 
-The post data is provided to us on the request here object "req" inside the callback function of the app.post() method.
+The post data is provided to us on the request here object "req" inside the callback function of the **app.post() method.**
 
 ```
 const bodyContent = req.body;
