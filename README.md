@@ -37,6 +37,12 @@ npm install express
 * It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects.<br>
 [More about EXPRESS](https://www.geeksforgeeks.org/express-js/)
 
+install package for mysql
+```
+npm install mysql2
+```
+
+
 ### To start the server
 ```
 node app.js
