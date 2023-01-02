@@ -21,7 +21,7 @@ const headerContent = req.headers;
 
 Install Node.js in your system, 
 
-Node.js is an open-source and cross-platform runtime environment built on Chrome’s V8 JavaScript engine for executing JavaScript code outside of a browser.
+**Node.js**  is an open-source and cross-platform runtime environment built on Chrome’s V8 JavaScript engine for executing JavaScript code outside of a browser.
 
 For initializing repo
 ```
@@ -32,9 +32,9 @@ install express
 ```
 npm install express
 ```
-** Express.js ** is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features.
-It makes it easier to organize your application’s functionality with middleware and routing. 
-It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects.
+**Express.js**  is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features. <br>
+* It makes it easier to organize your application’s functionality with middleware and routing. <br>
+* It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects.<br>
 [More about EXPRESS](https://www.geeksforgeeks.org/express-js/)
 
 ### To start the server
@@ -45,4 +45,4 @@ Here you go...
 
 Thanks for reading this.
 Hope it'll help you guys.
-Don't forget to Star this repo, top right side in this [page](https://github.com/anuragK-24/sessionMysql)
+Don't forget to Star this repo, top right side on this [page](https://github.com/anuragK-24/sessionMysql)
