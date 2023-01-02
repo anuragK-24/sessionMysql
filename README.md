@@ -15,7 +15,7 @@ for headerContent
 const headerContent = req.headers;
 ```
 
-### Following commands to clone this repo, setup your own environment.
+## Following commands to clone this repo, setup your own environment.
 
 ```
 git clone https://github.com/anuragK-24/sessionMysql.git
@@ -49,7 +49,7 @@ install package for mysql
 npm install mysql2
 ```
 
-### To start the server
+## To start the server
 
 ```
 node app.js
