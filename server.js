@@ -31,19 +31,17 @@ db.connect((err)=> {
 
 
 app.post('/', (req, res) => {
-  const { username, password } = req.body;
-  const { authorization } = req.headers;
+  const { name, usn } = req.body;
   
-  let sql1 = `INSERT INTO STUDENT VALUES ("${username}","${password}",5)`;
+  let sql1 = `INSERT INTO STUDENT VALUES ("${name}","${usn}")`;
   db.query(sql1,(err,result)=>{
     if (err) {
         console.log('hi')
     }
     console.log(`inserted `)
         res.send({
-    username,
-    password,
-    authorization,
+    name,
+    usn,
   })
   res.sendFile(__dirname + '/file.html');
 });
