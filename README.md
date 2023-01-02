@@ -1,4 +1,4 @@
-# sessionMysql
+## Demo to Connect Frontend with Database
 
 POST is a request method supported by HTTP that **sends data to the server.**
 In express, we can use the app.post() method to accept a POST request.
