@@ -45,4 +45,4 @@ Here you go...
 
 Thanks for reading this.
 Hope it'll help you guys.
-Don't forget to Star this repo, top left side in this [page](https://github.com/anuragK-24/sessionMysql)
+Don't forget to Star this repo, top right side in this [page](https://github.com/anuragK-24/sessionMysql)
